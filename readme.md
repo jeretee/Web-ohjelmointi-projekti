@@ -4,7 +4,7 @@ Kuvat: www.pexels.com
 
 Etusivu:
 
-Oiva: slideshow, opettajat
+Oiva: slideshow/heroimage, opettajat
 
 Kasper: esittely, header
 

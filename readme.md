@@ -1,5 +1,7 @@
 Tehtävänjako
 
+Kuvat: www.pexels.com
+
 Etusivu:
 
 Oiva: slideshow, opettajat

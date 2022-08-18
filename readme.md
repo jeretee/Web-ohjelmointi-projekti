@@ -4,9 +4,9 @@ Etusivu:
 
 Oiva: slideshow, opettajat
 
-Kasper: esittely
+Kasper: esittely, header
 
-Jere: tabs
+Jere: tabs, footer
 
 Uutiset:
 

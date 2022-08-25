@@ -14,31 +14,37 @@
 <dt> <input name="sähköposti" type="text" id="sähköposti"></dt>
 <br>Koulutalo:</br>
 <dt> <input name="koulutalo" type="text" id="koulutalo"></dt>
+<br>Viesti:</br>
+<dt> <textarea rows="4" cols="50" name="viesti" type="text" id="viesti"></textarea></dt>
+<br>Ilmoittaudu kurssille:</br>
+
+<input list="kurssit" name="kurssi" id="kurssi">
+<datalist id="kurssit">
+<option value="Peruskurssi">
+<option value="Harrastejaosto">
+<option value="Kilpajaosto">
+</datalist>
 </dl>
+
 <input type="submit" name="Submit" value="Ilmoittaudu">
 </form>
-  
+
 <style>
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 footer {
   text-align: center;
   padding: 3px;
   background-color: #474e5d;
   color: white;
 }
-
 </style>
 </script>
 </head>
 <body>
-
-<h1>Jotkin uutiset</h1>
-
 
 <footer>
     <h2>Copyright: Jere, Oiva, Kasper</h2>

@@ -2,6 +2,11 @@ Tehtävänjako
 
 Kuvat: www.pexels.com
 
+XAMPP JUTUT:
+
+username: dbweb
+password: dbpassword
+
 Etusivu:
 
 Oiva: slideshow/heroimage, opettajat

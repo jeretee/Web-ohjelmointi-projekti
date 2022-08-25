@@ -4,7 +4,10 @@ Kuvat: www.pexels.com
 
 XAMPP JUTUT:
 
+Lisää ja käytä näitä kun haluat muokata tai tarkistaa PHP ja xampp jutut.
+
 username: dbweb
+
 password: dbpassword
 
 Etusivu:

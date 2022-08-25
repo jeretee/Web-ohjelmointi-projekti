@@ -44,15 +44,17 @@ body, html {
   color: white;
 }
  .tab {
+  text-align: center;
+  padding: 15px;
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
 
-/* Style the buttons inside the tab */
+
 .tab button {
   background-color: inherit;
-  float: left;
+  float: right
   border: none;
   outline: none;
   cursor: pointer;
@@ -61,18 +63,19 @@ body, html {
   font-size: 17px;
 }
 
-/* Change background color of buttons on hover */
+
 .tab button:hover {
   background-color: #ddd;
 }
 
-/* Create an active/current tablink class */
+
 .tab button.active {
   background-color: #ccc;
 }
 
-/* Style the tab content */
+
 .tabcontent {
+  text-align: center;
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
@@ -135,6 +138,18 @@ html {
   background-color: #474e5d;
   color: white;
 }
+
+.teksti {
+    text-align: center;
+    padding: 50px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #474e5d;
+  color: white;
+}
+
 </style>
 <script>
 function palvelut(evt, palvelut) {
@@ -168,8 +183,10 @@ function palvelut(evt, palvelut) {
   <p>Kurssien tiedot löytyvät alta.</p>
 </div>
 
+<div class="teksti">
 <h2>Palvelut</h2>
 <p>Paina saadaksesi lisätietoa</p>
+</div>
 
 <div class="tab">
   <button class="tablinks" onclick="palvelut(event, 'perus')">Peruskurssi</button>
@@ -227,6 +244,8 @@ function palvelut(evt, palvelut) {
   </div>
 </div>
 
-
+<footer>
+    <h2>Copyright: Jere, Oiva, Kasper</h2>
+</footer>
 </body>
 </html>

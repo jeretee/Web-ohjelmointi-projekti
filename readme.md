@@ -25,5 +25,5 @@ Oiva: HTML
 
 Kasper: 
 
-Jere: 
+Jere: HTML footer
 

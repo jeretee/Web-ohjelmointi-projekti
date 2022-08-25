@@ -21,7 +21,7 @@ Jere:
 
 Ilmoittautuminen:
 
-Oiva: 
+Oiva: HTML
 
 Kasper: 
 

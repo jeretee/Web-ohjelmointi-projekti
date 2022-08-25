@@ -16,7 +16,7 @@ Oiva:
 
 Kasper: 
 
-Jere: 
+Jere: HTML footer
 
 
 Ilmoittautuminen:

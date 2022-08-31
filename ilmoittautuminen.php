@@ -1,31 +1,26 @@
 <?php 
+
 @ini_set("display_errors", 1);
 @ini_set("error_reporting", E_ALL);
-// Otetaan yhteys tietokantapalvelimeen
-include("yhteys.php");  // Sisällyttää aiemmin tehdyn yhteys.php-tiedoston tähän
-// Taulun nimi on jasenet, ei esim Jäsenet tai Jasenet
-// Listataan kaikki = *
-$sql_lause =  "SELECT * FROM ilmoittautumiset";
-try {
-  $kysely = $yhteys->prepare($sql_lause);
-  $kysely->execute();
+
+include("yhteys.php");
+
+$et = $_POST["etunimi"];
+$sn = $_POST["sukunimi"];
+$sp = $_POST["sahkoposti"];
+$kt = $_POST["koulutalo"];
+$vs = $_POST["viesti"];
+$ks = $_POST["kurssi"];
+
+echo "$et .. $sn .. $sp .. $kt .. $vs .. $ks<br>";
+
+$sql = "INSERT INTO jasenet (tunniste, etunimi, sukunimi, sahkoposti, koulutalo, viesti, kurssi) 
+VALUES (NULL, '$et', '$sn', '$sp', '$kt', '$vs', '$ks')";
+
+try { 
+		$kysely = $yhteys->prepare($sql); 
+		$kysely->execute(); 
+	} catch (PDOException $e) { 
+	die("VIRHE NRO 2: " . $e->getMessage()); 
 } 
- catch (PDOException $e) {
-            die("VIRHE: " . $e->getMessage());
-       }
-$tulos = $kysely->fetchAll();
-echo " <br>";
-echo "<table align='left' cellspacing=3 cellpadding=3>";
-
-
-echo "<td>etunimi</td>", "<td>sukunimi</td>";
-foreach($tulos as $rivi) {     
- 
- echo '<tr>';
- echo '<td>',$rivi['etunimi'],'</td>';
- echo '<td>',$rivi['sukunimi'],'</td>';
- echo '</tr>';  
-
-} 
-echo "</table>"; 
 ?>  

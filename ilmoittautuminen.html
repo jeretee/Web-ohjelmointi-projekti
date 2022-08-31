@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
 <head>
-<title>Ilmoittautuminen</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8"/>
+	<title>Ilmoittautuminen</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<form name="formi" method="post" action="lisaa.php" style="margin-left: 20px; margin-bottom: 20px">
+<form name="formi" method="post" action="ilmoittautuminen.php" style="margin-left: 20px; margin-bottom: 20px">
 <dl>
 <br>Etunimi:</br>
 <dt> <input name="etunimi" type="text" id="etunimi"></dt>
 <br>Sukunimi:</br>
 <dt> <input name="sukunimi" type="text" id="sukunimi"></dt>
 <br>Sähköposti:</br>
-<dt> <input name="sähköposti" type="text" id="sähköposti"></dt>
+<dt> <input name="sahkoposti" type="text" id="sahkoposti"></dt>
 <br>Koulutalo:</br>
 <dt> <input name="koulutalo" type="text" id="koulutalo"></dt>
 <br>Viesti:</br>
@@ -20,9 +21,9 @@
 
 <input list="kurssit" name="kurssi" id="kurssi">
 <datalist id="kurssit">
-<option value="Peruskurssi">
-<option value="Harrastejaosto">
-<option value="Kilpajaosto">
+<option value="peruskurssi">
+<option value="harrastejaosto">
+<option value="kilpajaosto">
 </datalist>
 </dl>
 

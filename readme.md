@@ -10,6 +10,8 @@ username: dbweb
 
 password: dbpassword
 
+taulukon nimi pitää olla: jasenet
+
 Etusivu:
 
 Oiva: slideshow/heroimage, opettajat

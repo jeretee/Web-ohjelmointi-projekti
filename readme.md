@@ -20,7 +20,7 @@ Jere: tabs, footer
 
 Uutiset:
 
-Oiva: 
+Oiva: Ilmoittautuminen PHP
 
 Kasper: 
 

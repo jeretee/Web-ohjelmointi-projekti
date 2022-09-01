@@ -19,12 +19,13 @@ footer {
 }
 
 </style>
-</script>
 </head>
 <body>
 
-<h1>Uutiset</h1>
-<h2>Tervetuloa uutiset sivulle</h2>
+<?php include 'uutiset\uutis1.php';
+include 'uutiset\uutis2.php';
+include 'uutiset\uutis3.php'; ?>
+
 
 
 <footer>

@@ -1,6 +1,7 @@
 <?php
-echo "<h1>PHP is Fun!</h1>";
-echo "Hello world!<br>";
-echo "I'm about to learn PHP!<br>";
-echo "This ", "string ", "was ", "made ", "with multiple parameters.";
+echo "<h1>Koulun palvelin pois käytöstä</h1>
+2.9.2022 klo 9:15<br>
+<br>
+<br>Koulun palvelin sammutetaan 6.9.2022, muistakaa tallentaa työt!";
+
 ?>

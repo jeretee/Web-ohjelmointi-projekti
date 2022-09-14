@@ -22,9 +22,9 @@ Jere: tabs, footer
 
 Uutiset:
 
-Oiva: 
+Oiva: uutiset php, uutiset sql
 
-Kasper: 
+Kasper: header
 
 Jere: HTML footer
 
@@ -33,7 +33,7 @@ Ilmoittautuminen:
 
 Oiva: HTML, Ilmoittautuminen PHP
 
-Kasper: 
+Kasper: header
 
 Jere: HTML footer
 

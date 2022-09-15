@@ -16,23 +16,53 @@ footer {
   padding: 3px;
   background-color: #474e5d;
   color: white;
-  margin-top: 350px;
+  margin-top: 220px;
+}
+div	{
+	padding-left:20px;
 }
 .header {
-  padding: 40px;
-  text-align: center;
+  padding: 15px;
+  text-align: left;
   background: #2a4742;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
+}
+
+.header-right {
+ float: right;
+ color: white;
+}
+
+.header a {
+ text-decoration:none;
+ padding: 10px;
+ border-radius: 4px;
+ line-height: 10px;
+}
+
+.header-right a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+a:visited {
+ color: white;
 }
 </style>
 </head>
 <body>
-  
+	
 <div class="header">
-  <h2>Amis Padel</h2>
+  <a style="font-weight: bold;">Amis Padel</a>
+  <div class="header-right">
+    <a href="etusivu.html">Etusivu</a>
+    <a href="ilmoittautuminen.html">Ilmoittautuminen</a>
+    <a href="uutiset.php">Uutiset</a>
+  </div>
 </div>
-  
+
+<div>
 <?php 
 @ini_set("display_errors", 1);
 @ini_set("error_reporting", E_ALL);
@@ -55,6 +85,7 @@ foreach($tulos as $rivi) {
  echo '<p>',$rivi['leipateksti'],'</p>';
 } 
 ?>  
+</div>
 
 <footer>
     <h2>Copyright: Jere, Oiva, Kasper</h2>

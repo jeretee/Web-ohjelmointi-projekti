@@ -32,7 +32,7 @@ Jere: tabs
 
 Uutiset
 
-Oiva: uutiset php, uutiset sql, header linkit ja ulkonäkö
+Oiva: uutiset php, uutiset sql
 
 Ilmoittautuminen
 

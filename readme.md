@@ -1,6 +1,6 @@
-Kuvat: www.pexels.com
+Kuvat ovat sivulta www.pexels.com
 
-XAMPP JUTUT:
+XAMPP JUTUT
 
 Lisää ja käytä näitä kun haluat muokata tai tarkistaa PHP ja xampp jutut.
 
@@ -8,32 +8,35 @@ username: dbweb
 
 password: dbpassword
 
-taulukon nimi pitää olla: jasenet
+taulukon nimi pitää olla jasenet
 
-Tehtävänjako
+TEHTÄVÄNJAKO
 
-Etusivu:
+Header
+
+Oiva: header linkit ja ulkonäkö
+
+Kasper: header pohja
+
+Footer kaikille sivuille teki Jere
+
+Etusivu
 
 Oiva: slideshow/heroimage, opettajat
 
 Kasper: esittely, header
 
-Jere: tabs, footer
+Jere: tabs
 
-Uutiset:
+Uutiset
 
-Oiva: uutiset php, uutiset sql
+Oiva: uutiset php, uutiset sql, header linkit ja ulkonäkö
 
-Kasper: header
-
-Jere: HTML footer
+Kasper: header pohja
 
 
-Ilmoittautuminen:
+Ilmoittautuminen
 
 Oiva: HTML, Ilmoittautuminen PHP
 
 Kasper: header
-
-Jere: HTML footer
-

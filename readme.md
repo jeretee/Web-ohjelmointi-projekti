@@ -34,11 +34,6 @@ Uutiset
 
 Oiva: uutiset php, uutiset sql, header linkit ja ulkonäkö
 
-Kasper: header pohja
-
-
 Ilmoittautuminen
 
 Oiva: HTML, Ilmoittautuminen PHP
-
-Kasper: header

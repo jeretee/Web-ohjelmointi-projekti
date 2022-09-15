@@ -26,7 +26,7 @@ Etusivu
 
 Oiva: slideshow/heroimage, opettajat
 
-Kasper: esittely, header
+Kasper: esittely, header, tabs button
 
 Jere: tabs
 

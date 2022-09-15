@@ -18,7 +18,9 @@ Oiva: header linkit ja ulkonäkö
 
 Kasper: header pohja
 
-Footer kaikille sivuille teki Jere
+Footer
+
+Kaikille sivuille teki Jere
 
 Etusivu
 

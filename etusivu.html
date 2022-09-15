@@ -52,7 +52,6 @@ body, html {
   background-color: #f1f1f1;
 }
 
-
 .tab button {
   background-color: inherit;
   float: center;
@@ -64,16 +63,13 @@ body, html {
   font-size: 17px;
 }
 
-
 .tab button:hover {
   background-color: #ddd;
 }
 
-
 .tab button.active {
   background-color: #ccc;
 }
-
 
 .tabcontent {
   text-align: center;
@@ -144,30 +140,42 @@ html {
     text-align: center;
     padding: 50px;
 }
+
 footer {
   text-align: center;
   padding: 3px;
   background-color: #474e5d;
   color: white;
 }
+
 .header {
-  padding: 40px;
-  text-align: center;
+  padding: 15px;
+  text-align: left;
   background: #2a4742;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
 }
 
-/* Page Content */
-.content {padding:20px;}
-</style>
-</head>
-<body>
+.header-right {
+ float: right;
+ color: white;
+}
 
-<div class="header">
-  <h1>Amis Padel</h1>
-</div>
+.header a {
+ text-decoration:none;
+ padding: 10px;
+ border-radius: 4px;
+ line-height: 10px;
+}
 
+.header-right a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+a:visited {
+ color: white;
+}
 </style>
 <script>
 function palvelut(evt, palvelut) {
@@ -184,8 +192,18 @@ function palvelut(evt, palvelut) {
   evt.currentTarget.className += " active";
 }
 </script>
+
 </head>
 <body>
+
+<div class="header">
+  <a style="font-weight: bold;">Amis Padel</a>
+  <div class="header-right">
+    <a href="etusivu.html">Etusivu</a>
+    <a href="ilmoittautuminen.html">Ilmoittautuminen</a>
+    <a href="uutiset.php">Uutiset</a>
+  </div>
+</div>
 
 <div class="hero-image">
   <div class="hero-text">
@@ -198,7 +216,7 @@ function palvelut(evt, palvelut) {
   <h2>Esittely</h2>
   <p>Olemme Amis Padel, tarjoamme monipuolisia padel kursseja kaiken tasoisille ja ikäisille.</p>
   <p>Kurssille voit ilmoittautua yllä olevasta ilmoittaudu napista.</p>
-  <p>Kurssien tiedot sekä yhteystiedot löytyvät alta.</p>
+  <p>Kurssien tiedot löytyvät alta.</p>
 </div>
 
 <div class="teksti">

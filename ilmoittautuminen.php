@@ -18,13 +18,22 @@ footer {
   color: white;
   margin-top: 350px;
 }
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #2a4742;
+  color: white;
+  font-size: 30px;
+}
 div	{
 	padding-left:20px;
 }
 </style>
 </head>
 <body>
-
+<div class="header">
+  <h2>Amis Padel</h2>
+</div>
 <div>
 <?php 
 @ini_set("display_errors", 1);

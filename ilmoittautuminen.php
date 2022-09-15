@@ -83,14 +83,6 @@ echo "Tiedot lähetetty!<br>";
 
 $sql = "INSERT INTO jasenet (tunniste, etunimi, sukunimi, sahkoposti, koulutalo, viesti, kurssi) 
 VALUES (NULL, '$et', '$sn', '$sp', '$kt', '$vs', '$ks')";
-$sql_lause =  "SELECT * FROM uutiset";
-try {
-  $kysely = $yhteys->prepare($sql_lause);
-  $kysely->execute();
-} 
- catch (PDOException $e) {
-            die("VIRHE: " . $e->getMessage());
-       }
 
 try { 
 		$kysely = $yhteys->prepare($sql); 

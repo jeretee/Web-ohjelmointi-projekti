@@ -31,9 +31,11 @@ div	{
 </style>
 </head>
 <body>
+	
 <div class="header">
   <h2>Amis Padel</h2>
 </div>
+	
 <div>
 <?php 
 @ini_set("display_errors", 1);

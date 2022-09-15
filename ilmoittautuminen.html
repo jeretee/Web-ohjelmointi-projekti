@@ -45,6 +45,10 @@ footer {
 a:visited {
  color: white;
 }
+
+dt {
+ margin-top: 10px;
+}
 /* Page Content */
 .content {padding:20px;}
 </style>
@@ -62,17 +66,19 @@ a:visited {
 
 <form name="formi" method="post" action="ilmoittautuminen.php" style="margin-left: 20px; margin-bottom: 20px">
 <dl>
-<br>Etunimi:</br>
-<dt> <input name="etunimi" type="text" id="etunimi"></dt>
-<br>Sukunimi:</br>
-<dt> <input name="sukunimi" type="text" id="sukunimi"></dt>
-<br>Sähköposti:</br>
-<dt> <input name="sahkoposti" type="text" id="sahkoposti"></dt>
-<br>Koulutalo:</br>
-<dt> <input name="koulutalo" type="text" id="koulutalo"></dt>
-<br>Viesti:</br>
-<dt> <textarea rows="4" cols="50" name="viesti" type="text" id="viesti"></textarea></dt>
-<br>Ilmoittaudu kurssille:</br>
+	<dt>Etunimi:</dt>
+	<dt> <input name="etunimi" type="text" id="etunimi"></dt>
+	<dt>Sukunimi:</dt>
+	<dt> <input name="sukunimi" type="text" id="sukunimi"></dt>
+	<dt>Sähköposti:</dt>
+	<dt> <input name="sahkoposti" type="text" id="sahkoposti"></dt>
+	<dt>Koulutalo:</dt>
+	<dt> <input name="koulutalo" type="text" id="koulutalo"></dt>
+	<dt>Viesti:</dt>
+	<dt> <textarea rows="4" cols="50" name="viesti" id="viesti"></textarea></dt>
+	<dt>Ilmoittaudu kurssille:</dt>
+	<dd></dd>
+</dl>
 
 <input list="kurssit" name="kurssi" id="kurssi">
 	<datalist id="kurssit">
@@ -80,15 +86,9 @@ a:visited {
 		<option value="harrastejaosto">
 		<option value="kilpajaosto">
 	</datalist>
-</dl>
 
 <input type="submit" name="Submit" value="Ilmoittaudu">
 </form>
-
-</style>
-</script>
-</head>
-<body>
 
 <footer>
     <h2>Copyright: Jere, Oiva, Kasper</h2>

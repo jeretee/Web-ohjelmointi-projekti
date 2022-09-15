@@ -15,15 +15,36 @@ footer {
   padding: 3px;
   background-color: #474e5d;
   color: white;
+  margin-top: 220px;
 }
 .header {
-  padding: 40px;
-  text-align: center;
+  padding: 15px;
+  text-align: left;
   background: #2a4742;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
 }
 
+.header-right {
+ float: right;
+ color: white;
+}
+
+.header a {
+ text-decoration:none;
+ padding: 10px;
+ border-radius: 4px;
+ line-height: 10px;
+}
+
+.header-right a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+a:visited {
+ color: white;
+}
 /* Page Content */
 .content {padding:20px;}
 </style>
@@ -31,7 +52,12 @@ footer {
 <body>
 
 <div class="header">
-  <h2>Amis Padel</h2>
+  <a style="font-weight: bold;">Amis Padel</a>
+  <div class="header-right">
+    <a href="etusivu.html">Etusivu</a>
+    <a href="ilmoittautuminen.html">Ilmoittautuminen</a>
+    <a href="uutiset.php">Uutiset</a>
+  </div>
 </div>
 
 <form name="formi" method="post" action="ilmoittautuminen.php" style="margin-left: 20px; margin-bottom: 20px">
@@ -49,11 +75,11 @@ footer {
 <br>Ilmoittaudu kurssille:</br>
 
 <input list="kurssit" name="kurssi" id="kurssi">
-<datalist id="kurssit">
-<option value="peruskurssi">
-<option value="harrastejaosto">
-<option value="kilpajaosto">
-</datalist>
+	<datalist id="kurssit">
+		<option value="peruskurssi">
+		<option value="harrastejaosto">
+		<option value="kilpajaosto">
+	</datalist>
 </dl>
 
 <input type="submit" name="Submit" value="Ilmoittaudu">
